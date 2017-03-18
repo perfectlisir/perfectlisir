@@ -13,6 +13,7 @@
       android:padding="10dp"
       android:gravity="center"
       android:text="跳转"
+      android:textSize="20dp"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content" />
 </RelativeLayout>

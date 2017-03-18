@@ -1,9 +1,12 @@
-package com.example.lijie.perfectlisir;
+package com.example.lijie.perfectlisir.site;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.lijie.perfectlisir.BaseActivity;
+import com.example.lijie.perfectlisir.Constant;
+import com.example.lijie.perfectlisir.R;
 import com.lsxiao.apllo.Apollo;
 
 import butterknife.Bind;
@@ -30,6 +33,7 @@ public class Main2Activity extends BaseActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.ceshi1:
+//                发送通知
                 Apollo.get().send(Constant.INCART);
                 break;
             case R.id.ceshi2:

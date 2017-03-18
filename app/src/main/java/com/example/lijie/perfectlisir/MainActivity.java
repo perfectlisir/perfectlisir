@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 
+import com.example.lijie.perfectlisir.site.Main2Activity;
 import com.lsxiao.apllo.annotations.Receive;
 
 import butterknife.Bind;

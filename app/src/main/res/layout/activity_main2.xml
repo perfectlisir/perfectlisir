@@ -5,7 +5,9 @@
     android:id="@+id/activity_main2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lijie.perfectlisir.Main2Activity">
+    android:orientation="vertical"
+    tools:context="com.example.lijie.perfectlisir.site.Main2Activity">
+
 
     <Button
         android:id="@+id/ceshi1"
@@ -17,4 +19,85 @@
         android:text="测试2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+    <TextView
+        android:gravity="right"
+        android:text="甘草："
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#FFFF0602"
+        android:text="500g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="right"
+            android:id="@+id/ma_ty"
+            android:text="马铃薯："
+            android:layout_width="130dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_toRightOf="@+id/ma_ty"
+            android:textColor="#FFFF0602"
+            android:text="500g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="right"
+                android:text="马铃薯："
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#FFFF0602"
+                android:text="50g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="right"
+                android:id="@+id/ma_ty1"
+                android:text="甘草："
+                android:layout_width="130dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_toRightOf="@+id/ma_ty1"
+                android:textColor="#FFFF0602"
+                android:text="50g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>
 </LinearLayout>
