@@ -17,7 +17,8 @@ import rx.Subscription;
  */
 public class ProvincePresenter extends BasePresenter<IGetModel<RegionInfo>,ISiteView> {
     public  void getRegion(){
-        Subscription subscription =model.get(view.getUrlAction(),new ResponseSubscriber<RegionInfo>(view.getEClass(), new IPresenterCallback<RegionInfo>() {
+        Subscription subscription =model.get("http://192.168.1.250:9090/api/",
+                view.getUrlAction(),new ResponseSubscriber<>(view.getEClass(), new IPresenterCallback<RegionInfo>() {
             @Override
             public void onCompleted(RegionInfo entity) {
                 view.onCompleted(entity);

@@ -5,7 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.elmsc.buyer.R;
+import com.example.lijie.perfectlisir.R;
+
 
 public class BankPickerView extends BasePickerView implements View.OnClickListener
 {

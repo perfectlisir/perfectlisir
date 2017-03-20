@@ -5,6 +5,7 @@ import com.example.lijie.perfectlisir.App;
 import com.example.lijie.perfectlisir.mvp.presenter.IPresenterCallback;
 import com.example.lijie.perfectlisir.pickerview.utils.L;
 import com.example.lijie.perfectlisir.util.JsonUtils;
+import com.example.lijie.perfectlisir.util.LoadingMaker;
 import com.google.gson.Gson;
 
 import java.io.IOException;
@@ -43,7 +44,7 @@ public class ResponseSubscriber<E> extends Subscriber<ResponseBody>
     {
         App.getInstance().requestCount--;
         if (App.getInstance().requestCount == 0){
-//            LoadingMaker.dismissProgressDialog();
+            LoadingMaker.dismissProgressDialog();
         }
     }
 

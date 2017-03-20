@@ -1,5 +1,6 @@
 package com.example.lijie.perfectlisir.site.m;
 
+import com.example.lijie.perfectlisir.pickerview.utils.L;
 import com.example.lijie.perfectlisir.site.request.IGetModel;
 import com.example.lijie.perfectlisir.site.request.ResponseSubscriber;
 
@@ -14,10 +15,13 @@ public class GetModelImpl<E> extends BaseModelImpl implements IGetModel<E> {
     @Override
     public Subscription get(String action, ResponseSubscriber subscriber) {
         return getSubscription(action,subscriber);
+
     }
 
     @Override
     public Subscription get(String url, String action, ResponseSubscriber subscriber) {
+        L.v(url+action.toString());
         return getSubscription(url,action,subscriber);
+
     }
 }

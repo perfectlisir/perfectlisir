@@ -2,6 +2,8 @@ package com.example.lijie.perfectlisir.pickerview.utils;
 
 import android.view.Gravity;
 
+import com.example.lijie.perfectlisir.R;
+
 
 /**
  * Created by Sai on 15/8/9.
@@ -24,7 +26,7 @@ public class PickerViewAnimateUtil
 		switch (gravity)
 		{
 		case Gravity.BOTTOM:
-			return isInAnimation ? com.elmsc.buyer.R.anim.slide_in_bottom : com.elmsc.buyer.R.anim.slide_out_bottom;
+			return isInAnimation ? R.anim.slide_in_bottom : R.anim.slide_out_bottom;
 		}
 		return INVALID;
 	}

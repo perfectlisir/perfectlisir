@@ -3,9 +3,9 @@ package com.example.lijie.perfectlisir.pickerview.view;
 import android.content.Context;
 import android.view.View;
 
-import com.elmsc.buyer.R;
-import com.elmsc.buyer.third.pickerview.adapter.ArrayWheelAdapter;
-import com.elmsc.buyer.third.pickerview.lib.WheelView;
+import com.example.lijie.perfectlisir.R;
+import com.example.lijie.perfectlisir.pickerview.adapter.ArrayWheelAdapter;
+import com.example.lijie.perfectlisir.pickerview.lib.WheelView;
 
 import java.util.ArrayList;
 import java.util.Arrays;

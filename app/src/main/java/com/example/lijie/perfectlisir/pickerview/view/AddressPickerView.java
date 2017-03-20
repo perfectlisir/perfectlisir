@@ -6,9 +6,9 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.elmsc.buyer.R;
-import com.elmsc.buyer.third.pickerview.listener.OnDismissListener;
-import com.elmsc.buyer.third.pickerview.listener.OnItemSelectedListener;
+import com.example.lijie.perfectlisir.R;
+import com.example.lijie.perfectlisir.pickerview.listener.OnDismissListener;
+import com.example.lijie.perfectlisir.pickerview.listener.OnItemSelectedListener;
 
 import java.util.ArrayList;
 

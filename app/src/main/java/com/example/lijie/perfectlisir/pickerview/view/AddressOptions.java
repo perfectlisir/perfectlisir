@@ -4,9 +4,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.elmsc.buyer.third.pickerview.adapter.ArrayWheelAdapter;
-import com.elmsc.buyer.third.pickerview.lib.WheelView;
-import com.elmsc.buyer.third.pickerview.listener.OnItemSelectedListener;
+import com.example.lijie.perfectlisir.pickerview.adapter.ArrayWheelAdapter;
+import com.example.lijie.perfectlisir.pickerview.lib.WheelView;
+import com.example.lijie.perfectlisir.pickerview.listener.OnItemSelectedListener;
 
 import java.util.ArrayList;
 

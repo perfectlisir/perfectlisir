@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="messageCenter">
+        <item>系统消息</item>
+        <item>平台公告</item>
+        <item>最新动态</item>
+        <item>交易提示</item>
+    </string-array>
+    <string-array name="capitalManager">
+        <item>返点记录</item>
+        <item>月月分红</item>
+        <item>我的选货</item>
+        <item>奖励查询</item>
+        <item>选货订单</item>
+        <item>查看部门</item>
+    </string-array>
+    <string-array name="addressParameters">
+        <item>rName</item>
+        <item>rPhone</item>
+        <item>regionPid</item>
+        <item>regionCid</item>
+        <item>regionDid</item>
+        <item>regionSid</item>
+        <item>detail</item>
+    </string-array>
+    <string-array name="addressParametersTip">
+        <item>请输入收货人姓名</item>
+        <item>请输入联系电话</item>
+        <item>请选择省份</item>
+        <item>请选择城市</item>
+        <item>请选择区/县</item>
+        <item>请选择街道</item>
+        <item>请输入详细地址</item>
+    </string-array>
+    <string-array name="bankCardTypes">
+        <item>储蓄卡</item>
+        <item>信用卡</item>
+    </string-array>
+    <string-array name="bankNames">
+        <item>中国工商银行</item>
+        <item>中国建设银行</item>
+        <item>中国银行</item>
+        <item>中国农业银行</item>
+        <item>交通银行</item>
+        <item>招商银行</item>
+        <item>中信银行</item>
+        <item>中国民生银行</item>
+        <item>兴业银行</item>
+        <item>浦发银行</item>
+        <item>中国邮政储蓄银行</item>
+        <item>中国光大银行</item>
+        <item>平安银行</item>
+        <item>华夏银行</item>
+        <item>广发银行</item>
+        <item>北部湾银行</item>
+        <item>柳州银行</item>
+        <item>桂林银行</item>
+    </string-array>
+</resources>
